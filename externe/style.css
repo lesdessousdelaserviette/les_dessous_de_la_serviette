@@ -268,20 +268,20 @@ footer {
 
     /* Sidebar : 80% de la largeur de l'écran */
     .sidebar {
-        width: 80vw;
-        left: -80vw;
+        width: 85vw;
+        left: -85vw;
     }
 
     /* Liens sidebar : plus grands et mieux espacés */
     .sidebar a {
-        font-size: 1.35rem;
-        padding: 22px 24px;
+        font-size: 1.6rem;
+        padding: 26px 28px;
     }
 
     /* Bouton fermer plus grand */
     #closeBtn {
-        font-size: 1.8rem;
-        padding: 14px;
+        font-size: 2.2rem;
+        padding: 18px;
     }
 
     /* Bouton hamburger */
