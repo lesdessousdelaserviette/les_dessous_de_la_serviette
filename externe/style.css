@@ -161,6 +161,7 @@ footer {
 }
 
 .footer-column a i {
+    display: inline;
     margin-right: 6px;
 }
 
