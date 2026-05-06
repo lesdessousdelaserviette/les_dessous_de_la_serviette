@@ -358,7 +358,11 @@ footer {
     }
 }
 
-.content-box a {
+#lien {
     text-decoration: none;
     color: #333;
+}
+
+.content-box-2 a {
+    word-break: break-all;
 }
