@@ -115,6 +115,9 @@ footer {
 
 /* Liens */
 .footer-column a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
     color: white;
     text-decoration: none;
     display: inline-block;
@@ -160,10 +163,7 @@ footer {
     font-size: 14px;
 }
 
-.footer-column a i {
-    display: inline;
-    margin-right: 6px;
-}
+
 
 .t1 {
     text-align: center;
