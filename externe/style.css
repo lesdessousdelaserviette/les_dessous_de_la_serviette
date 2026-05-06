@@ -109,6 +109,10 @@ footer {
     font-family: Arial, sans-serif;
 }
 
+.footer-column ul li a {
+    font-family: Arial, sans-serif !important;
+}
+
 /* Liens */
 .footer-column a {
     color: white;
