@@ -56,11 +56,6 @@ ul {
     backdrop-filter: blur(5px);
 }
 
-.content-box a {
-    text-decoration: none;
-    color: #333;
-}
-
 body::before {
     content: "";
     position: fixed;
@@ -355,4 +350,9 @@ footer {
     .footer-bottom {
         font-size: 0.85rem;
     }
+}
+
+.content-box a {
+    text-decoration: none;
+    color: #333;
 }
