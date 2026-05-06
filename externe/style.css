@@ -196,8 +196,8 @@ footer {
 .sidebar {
     position: fixed;
     top: 0;
-    left: -280px;
-    width: 280px;
+    left: -350px;
+    width: 350px;
     height: 100%;
     background: #657d4d;
     color: white;
@@ -214,7 +214,7 @@ footer {
     padding: 18px 20px;
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     position: relative;
 }
 
