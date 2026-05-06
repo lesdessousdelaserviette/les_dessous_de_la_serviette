@@ -3,17 +3,18 @@ const openBtn = document.getElementById("openBtn");
 const closeBtn = document.getElementById("closeBtn");
 const overlay = document.getElementById("overlay");
 
-openBtn.onclick = () => {
+function openSidebar() {
   sidebar.style.left = "0";
   overlay.style.display = "block";
-};
+}
 
-closeBtn.onclick = () => {
-  sidebar.style.left = "-250px";
+function closeSidebar() {
+  // Récupère la largeur réelle de la sidebar pour la refermer correctement
+  const width = sidebar.offsetWidth;
+  sidebar.style.left = "-" + width + "px";
   overlay.style.display = "none";
-};
+}
 
-overlay.onclick = () => {
-  sidebar.style.left = "-250px";
-  overlay.style.display = "none";
-};
+openBtn.onclick = openSidebar;
+closeBtn.onclick = closeSidebar;
+overlay.onclick = closeSidebar;
