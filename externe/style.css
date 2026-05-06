@@ -160,6 +160,10 @@ footer {
     font-size: 14px;
 }
 
+.footer-column a i {
+    margin-right: 6px;
+}
+
 .t1 {
     text-align: center;
     text-decoration: underline;
@@ -265,6 +269,8 @@ footer {
 .sidebar a:hover::after {
     width: 100%;
 }
+
+
 
 /* ===================== */
 /* RESPONSIVE MOBILE     */
