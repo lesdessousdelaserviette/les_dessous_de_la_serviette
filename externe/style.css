@@ -125,6 +125,11 @@ footer {
     transition: all 0.3s ease;
 }
 
+.footer-column a i {
+    vertical-align: middle;
+    line-height: inherit;
+}
+
 /* Soulignement animé */
 .footer-column a::after {
     content: "";
